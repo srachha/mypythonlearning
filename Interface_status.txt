@@ -1,0 +1,9 @@
+mgmt0 is Up
+Ethernet1/1 is Up
+Ethernet1/2 is Up
+Ethernet1/3 is Up
+Ethernet1/4 is Up
+Ethernet1/5 is Down
+Ethernet1/6 is Down
+Ethernet1/7 is Down
+Ethernet1/8 is Down
