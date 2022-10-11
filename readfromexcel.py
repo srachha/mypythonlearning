@@ -13,7 +13,7 @@ apgroup = "CMC1" #define the name of the site
 # session = apicallsonaruba_copy.api_session("asb2-wlan-mm1","ecyt4t7","WuWOsJagWi17")
 # session.print_urlname("/api/login/configure")
 
-session.login()
+# session.login()
 
 def getapdatabase(siteapipaddress): #Reading the AP database file from the MM
     f = open('apdatabasefile.json')
