@@ -11,12 +11,12 @@ def switchlogin(host,username,password):
     data = {"userName":username,"password":password} 
     r = requests.Session()
     urlsession = r.post(fullurl, data=data, timeout=1)
-    if urlsession.status_code != "200":
+    if urlsession.status_code != 200:
         print("The API Login session to {} is unsuccessfull. Session Response={}".format(host,urlsession.status_code))
     else:
-        sessioncookie = urlsession["cookie"]
-        print(sessioncookie)
-        return sessioncookie
+        responsecookie = urlsession["cookie"]
+        print(responsecookie)
+        return responsecookie
 
 def commandsinput(command):
     c = {"cmd":command}
