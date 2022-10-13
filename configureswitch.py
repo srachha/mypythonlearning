@@ -12,7 +12,7 @@ def switchlogin(host,username,password):
     r = requests.Session()
     urlsession = r.post(fullurl, data=data, timeout=1)
     if urlsession.status_code != "200":
-        print("The API session to {} is unsuccessfull. Session Response={}".format(host,urlsession.status_code))
+        print("The API Login session to {} is unsuccessfull. Session Response={}".format(host,urlsession.status_code))
     else:
         sessioncookie = urlsession["cookie"]
         print(sessioncookie)
