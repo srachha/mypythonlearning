@@ -12,7 +12,7 @@ apgroup = "CMC1" #define the name of the site
 #     print("{}api/login?username={}&password={}".format(self.api_url,self.username,self.password))
 
   
-session = apicallsonaruba_copy.api_session("asb2-wlan-mm1","ecyt4t7","WuWOsJagWi17")
+session = apicallsonaruba_copy.api_session("mmname","username","password")
 # session.print_urlname("/api/login/configure")
 
 session.login()
